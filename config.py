@@ -1,4 +1,4 @@
-# encoding:utf-8
+﻿# encoding:utf-8
 
 import json
 import logging
@@ -158,9 +158,9 @@ available_setting = {
     "zhipu_ai_api_key": "",
     "zhipu_ai_api_base": "https://open.bigmodel.cn/api/paas/v4",
     # LinkAI平台配置
-    "use_linkai": False,
-    "linkai_api_key": "",
-    "linkai_app_code": "",
+    "use_linkai": true,
+    "linkai_api_key": "Link_9lEdkIx57EasvZoJWvx8giLzkwryBMvmOUssD7k9B2",
+    "linkai_app_code": "HYhYAOBb",
     "linkai_api_base": "https://api.link-ai.chat",  # linkAI服务地址，若国内无法访问或延迟较高可改为 https://api.link-ai.tech
 }
 
