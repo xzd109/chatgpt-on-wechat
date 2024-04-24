@@ -12,7 +12,7 @@ from voice.factory import create_voice
 @singleton
 class Bridge(object):
     def __init__(self):
-        logger.debug("Test Newadd  {} OldValue: {}".format(const.LINKAI,const.CHATGPT)) ##修改了
+        logger.info("Test Newadd  {} OldValue: {}".format(const.LINKAI,const.CHATGPT)) ##修改了
         self.btype = {
             "chat": const.LINKAI,#修改了
             "voice_to_text": conf().get("voice_to_text", "openai"),
