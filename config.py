@@ -158,7 +158,7 @@ available_setting = {
     "zhipu_ai_api_key": "",
     "zhipu_ai_api_base": "https://open.bigmodel.cn/api/paas/v4",
     # LinkAI平台配置
-    "use_linkai": true,
+    "use_linkai": True,
     "linkai_api_key": "Link_9lEdkIx57EasvZoJWvx8giLzkwryBMvmOUssD7k9B2",
     "linkai_app_code": "HYhYAOBb",
     "linkai_api_base": "https://api.link-ai.chat",  # linkAI服务地址，若国内无法访问或延迟较高可改为 https://api.link-ai.tech
