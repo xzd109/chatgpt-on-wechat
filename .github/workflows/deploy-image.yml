@@ -7,7 +7,7 @@
 # To get a newer version, you will need to update the SHA.
 # You can also reference a tag or branch, but the action may change without warning.
 
-name: ²âÊÔ²¿Êð
+name: Wechat Setup
 
 on:
   push:
@@ -40,6 +40,7 @@ jobs:
         run: |
           pwd
           pip3 install -r requirements.txt   
+          pip3 install -r requirements-optional.txt 
           cp config-template.json config.json
       - name : step 2
         run: |
