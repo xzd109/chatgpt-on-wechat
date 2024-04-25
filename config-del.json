@@ -1,4 +1,4 @@
-{
+﻿{
   "channel_type": "wx",
   "model": "",
   "open_ai_api_key": "YOUR API KEY",
@@ -40,3 +40,4 @@
   "wechatmp_token": "xiangzhidan",
   "wechatmp_port": 80
 }
+
