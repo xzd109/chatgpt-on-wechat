@@ -161,7 +161,7 @@ available_setting = {
     "use_linkai": True,
     "linkai_api_key": "Link_9lEdkIx57EasvZoJWvx8giLzkwryBMvmOUssD7k9B2",
     "linkai_app_code": "HYhYAOBb",
-    "linkai_api_base": "https://api.link-ai.chat",  # linkAI服务地址，若国内无法访问或延迟较高可改为 https://api.link-ai.tech
+    "linkai_api_base": "https://api.link-ai.chat"  # linkAI服务地址，若国内无法访问或延迟较高可改为 https://api.link-ai.tech
 }
 
 
