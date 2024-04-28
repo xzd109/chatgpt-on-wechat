@@ -18,9 +18,10 @@ class SortedDict(dict):
         if key in self:
             super().__setitem__(key, value)
             for i, (priority, k) in enumerate(self.heap):
+
                 if k == key:
                     self.heap[i] = (self.sort_func(key, value), key)
-                    heapq.heapify(self.heap)
+                    heapq.heapqify(self.heap)
                     break
             self.sorted_keys = None
         else:

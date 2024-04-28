@@ -1,0 +1,53 @@
+{
+  'MsgId': '6488851690273408483',
+  'FromUserName': '@bc4038f3bdb6471f22dc1f34a1631c6287579ef1b7444b6297d016e78c79c740',
+  'ToUserName': '@9d6651a03c3de92b50d326053232833c',
+  'MsgType': 34,
+  'Content': '@9023bd457f71e20e53f44a221d96ffd070e136af56bc283cbd5f6d54acf53f03593c5588c796d302d0259eeb0b95aa6f00eaf91a38c865e24ac48c4c1b9511bf25f70e28edc9c8c223fcc694e7df6f45ce4ee3022beac7d0558e8b6e95adc622581323b5e237f6900ee1a8b38510a7324586aa4c07a2d52749d1c79aec93caa6c59cf67ffe63991847f5c05d0b420a2020fd3dfcd6cea85c479fca298d8307ee08491900085487a8ee1b91cb6a47a73344941d391a5bd09dba3cd79a92671629df431324a3ebc4cacd09372d6917036f157b1e84360165014ef61310aa5581bf171c32e34d772a554310b95862767e37448378e3b13e5f67188755151cf7b195646f039e7a7769de9ad8d1681967ec01d1379351a4bc6bb4aaaaf33752f303e3caf36dc99aecc2e4316582fd64fe576cfd6e21ffb904524c137d11e4b1db7e3d8123f9370c4e12ac9d357ccc84fb2f1a85698516e71c281f50522d7731737c21dc143b93c846c1a7c4865a9d68b9c66b854672048035e4a77e9862e8132a921ea8abf62e44552d42e9e34fda38b86d187364d39f439c2851fe714353cdf4a8a2bb2efa898e9638fd6483cf7b34f616ca1921cdb7ee69e2ba759402a2b6c7dd1083a844d185136833dc7876ea603cc4b22fbf49ba4cb8ef0cdb05179972c54faa',
+  'Status': 3,
+  'ImgStatus': 1,
+  'CreateTime': 1714217708,
+  'VoiceLength': 1768,
+  'PlayLength': 0,
+  'FileName': '240427-193454.mp3',
+  'FileSize': '',
+  'MediaId': '',
+  'Url': '',
+  'AppMsgType': 0,
+  'StatusNotifyCode': 0,
+  'StatusNotifyUserName': '',
+  'RecommendInfo': {
+    'UserName': '',
+    'NickName': '',
+    'QQNum': 0,
+    'Province': '',
+    'City': '',
+    'Content': '',
+    'Signature': '',
+    'Alias': '',
+    'Scene': 0,
+    'VerifyFlag': 0,
+    'AttrStatus': 0,
+    'Sex': 0,
+    'Ticket': '',
+    'OpCode': 0
+  },
+  'ForwardFlag': 0,
+  'AppInfo': {
+    'AppID': '',
+    'Type': 0
+  },
+  'HasProductId': 0,
+  'Ticket': '',
+  'ImgHeight': 0,
+  'ImgWidth': 0,
+  'SubMsgType': 0,
+  'NewMsgId': 6488851690273408483,
+  'OriContent': '',
+  'EncryFileName': '',
+  'User': <User
+  : {
+  'MemberList': <ContactList
+  : []>, 'Uin': 0, 'UserName': '@bc4038f3bdb6471f22dc1f34a1631c6287579ef1b7444b6297d016e78c79c740', 'NickName': '孤星泪', 'HeadImgUrl': '/cgi-bin/mmwebwx-bin/webwxgeticon?seq=688541441&username=@bc4038f3bdb6471f22dc1f34a1631c6287579ef1b7444b6297d016e78c79c740&skey=@crypt_d93f4b3a_2f02ce1238931c4031f527f911727e2a', 'ContactFlag': 257, 'MemberCount': 0, 'RemarkName': '', 'HideInputBarFlag': 0, 'Sex': 1, 'Signature': '', 'VerifyFlag': 0, 'OwnerUin': 0, 'PYInitial': 'GXL', 'PYQuanPin': 'guxinglei', 'RemarkPYInitial': '', 'RemarkPYQuanPin': '', 'StarFriend': 0, 'AppAccountFlag': 0, 'Statues': 0, 'AttrStatus': 135717, 'Province': '', 'City': '', 'Alias': '', 'SnsFlag': 257, 'UniFriend': 0, 'DisplayName': '', 'ChatRoomId': 0, 'KeyWord': '', 'EncryChatRoomId': '', 'IsOwner': 0}>,
+'Type': 'Recording', 'Text': <function get_download_fn.<locals>.download_fn at 0x000000000F25E5E0>
+}

@@ -53,7 +53,9 @@ class PluginManager:
         if os.path.exists("./plugins/plugins.json"):
             with open("./plugins/plugins.json", "r", encoding="utf-8") as f:
                 pconf = json.load(f)
+                #logger.info("pconf start :%s" % (pconf))
                 pconf["plugins"] = SortedDict(lambda k, v: v["priority"], pconf["plugins"], reverse=True)
+                #logger.info("pconf end :%s" % (pconf["plugins"]))
         else:
             modified = True
             pconf = {"plugins": SortedDict(lambda k, v: v["priority"], reverse=True)}
@@ -90,7 +92,9 @@ class PluginManager:
         raws = [self.plugins[name] for name in self.plugins]
         for plugin_name in os.listdir(plugins_dir):
             plugin_path = os.path.join(plugins_dir, plugin_name)
+
             if os.path.isdir(plugin_path):
+                #logger.info(f"plugin_path=={plugin_path}")
                 # 判断插件是否包含同名__init__.py文件
                 main_module_path = os.path.join(plugin_path, "__init__.py")
                 if os.path.isfile(main_module_path):
@@ -108,6 +112,7 @@ class PluginManager:
                                     importlib.reload(sys.modules[name])
                         else:
                             self.loaded[plugin_path] = importlib.import_module(import_path)
+                            #logger.info(f"loaded=={self.loaded}")
                         self.current_plugin_path = None
                     except Exception as e:
                         logger.warn("Failed to import plugin %s: %s" % (plugin_name, e))
@@ -115,9 +120,17 @@ class PluginManager:
         pconf = self.pconf
         news = [self.plugins[name] for name in self.plugins]
         new_plugins = list(set(news) - set(raws))
+        #logger.info("new_plugins  %s" % (new_plugins))
+
         modified = False
-        for name, plugincls in self.plugins.items():
+        # 示例如 KEYWORD=<class 'plugins.keyword.keyword.Keyword'>
+        for name, plugincls in self.plugins.items(): #从文件夹读出的值
+            #logger.info(f"xzd:{name}={plugincls}")
             rawname = plugincls.name
+            #logger.info(pconf["plugins"])
+            #logger.info('-----------------------')
+
+            #logger.info(f"-------{name}(大写)--{plugincls.name}-------------")
             if rawname not in pconf["plugins"]:
                 modified = True
                 logger.info("Plugin %s not found in pconfig, adding to pconfig..." % name)
@@ -172,6 +185,7 @@ class PluginManager:
 
     def load_plugins(self):
         self.load_config()
+        #exit()
         self.scan_plugins()
         # 加载全量插件配置
         self._load_all_config()

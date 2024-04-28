@@ -190,7 +190,7 @@ class ChatChannel(Channel):
             logger.debug("[WX] ready to handle context: type={}, content={}".format(context.type, context.content))
             if context.type == ContextType.TEXT or context.type == ContextType.IMAGE_CREATE:  # 文字和图片消息
                 context["channel"] = e_context["channel"]
-                reply = super().build_reply_content(context.content, context)
+                reply = super().build_reply_content(context.content, context) #桥接了
             elif context.type == ContextType.VOICE:  # 语音消息
                 cmsg = context["msg"]
                 cmsg.prepare()
@@ -321,6 +321,7 @@ class ChatChannel(Channel):
 
     def produce(self, context: Context):
         session_id = context["session_id"]
+
         with self.lock:
             if session_id not in self.sessions:
                 self.sessions[session_id] = [
@@ -336,6 +337,13 @@ class ChatChannel(Channel):
     def consume(self):
         while True:
             with self.lock:
+                #from common.log import  logger
+                #time.sleep(10)
+                #
+                # {'@94206facd2699cd16ef3e93d9c34d17aeb5a95618f32ef915e93b99a0c6a3189': [ < common.dequeue.Dequeue object at 0x000000000E9AA190 >, < threading.BoundedSemaphore
+                # object at 0x000000000E9AA430 >]}
+
+                #logger.info("consume:文件"+str(self.sessions))
                 session_ids = list(self.sessions.keys())
                 for session_id in session_ids:
                     context_queue, semaphore = self.sessions[session_id]

@@ -7,7 +7,9 @@ from common.log import logger
 
 
 def time_checker(f):
+    #logger.info("selt-time_checker.py time_checker")
     def _time_checker(self, *args, **kwargs):
+        #logger.info("selt-time_checker.py time_checker._time_checker")
         _config = config.conf()
         chat_time_module = _config.get("chat_time_module", False)
         if chat_time_module:

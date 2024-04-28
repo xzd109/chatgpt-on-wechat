@@ -1,0 +1,56 @@
+{
+  'MsgId': '4533706558817265401',
+  'FromUserName': '@72acee7b5535296b20a74ccab7a66298101677a8c842f7a45dc5a5cd2d5946bd',
+  'ToUserName': '@8298479f8b6c63f1860756496b2420d8',
+  'MsgType': 49,
+  'Content': '<?xml version="1.0"?>\n<msg>\n\t<appmsg appid="wx4310bbd51be7d979" sdkver="0">\n\t\t<title>WPS JS宏编程教程教案.docx</title>\n\t\t<des>13.7 MB</des>\n\t\t<username />\n\t\t<action>view</action>\n\t\t<type>6</type>\n\t\t<showtype>0</showtype>\n\t\t<content />\n\t\t<url />\n\t\t<lowurl />\n\t\t<forwardflag>0</forwardflag>\n\t\t<dataurl />\n\t\t<lowdataurl />\n\t\t<contentattr>0</contentattr>\n\t\t<streamvideo>\n\t\t\t<streamvideourl />\n\t\t\t<streamvideototaltime>0</streamvideototaltime>\n\t\t\t<streamvideotitle />\n\t\t\t<streamvideowording />\n\t\t\t<streamvideoweburl />\n\t\t\t<streamvideothumburl />\n\t\t\t<streamvideoaduxinfo />\n\t\t\t<streamvideopublishid />\n\t\t</streamvideo>\n\t\t<canvasPageItem>\n\t\t\t<canvasPageXml><![CDATA[]]></canvasPageXml>\n\t\t</canvasPageItem>\n\t\t<appattach>\n\t\t\t<attachid>@cdn_3057020100044b3049020100020432b577dd02032f7dd10204781bbade0204662ce3e4042438306265376336622d666532652d346430352d616564622d3534373537303038363630340204051400050201000405004c4f2900_2aa9897e46f13c3ee2eee5df63b10eba_1</attachid>\n\t\t\t<cdnattachurl>3057020100044b3049020100020432b577dd02032f7dd10204781bbade0204662ce3e4042438306265376336622d666532652d346430352d616564622d3534373537303038363630340204051400050201000405004c4f2900</cdnattachurl>\n\t\t\t<totallen>14397987</totallen>\n\t\t\t<aeskey>2aa9897e46f13c3ee2eee5df63b10eba</aeskey>\n\t\t\t<encryver>1</encryver>\n\t\t\t<fileext>docx</fileext>\n\t\t\t<islargefilemsg>0</islargefilemsg>\n\t\t\t<overwrite_newmsgid>2316521068365830502</overwrite_newmsgid>\n\t\t\t<fileuploadtoken><![CDATA[v1_vKTbc/40hrkbngIb9sLufgG5heBXMDWSzbRMjHxU6zMwTPoBhn5JOv24q3PabJBxwO1QVpOFBqjNvJ3jdAUwS3jn57JM78Psked4Du/pK8lTVr0b1vrAZje3OVCiDN3n5wdGNQfyFJ7yIHt7+ElkREeFyBoN35LkmTBLtfVu2dH69uJeDj/Ryoc/0jnP+64gTbqzY+j8LKA=]]></fileuploadtoken>\n\t\t</appattach>\n\t\t<extinfo />\n\t\t<androidsource>2</androidsource>\n\t\t<thumburl />\n\t\t<mediatagname />\n\t\t<messageaction><![CDATA[]]></messageaction>\n\t\t<messageext><![CDATA[]]></messageext>\n\t\t<emoticongift>\n\t\t\t<packageflag>0</packageflag>\n\t\t\t<packageid />\n\t\t</emoticongift>\n\t\t<emoticonshared>\n\t\t\t<packageflag>0</packageflag>\n\t\t\t<packageid />\n\t\t</emoticonshared>\n\t\t<designershared>\n\t\t\t<designeruin>0</designeruin>\n\t\t\t<designername>null</designername>\n\t\t\t<designerrediretcturl>null</designerrediretcturl>\n\t\t</designershared>\n\t\t<emotionpageshared>\n\t\t\t<tid>0</tid>\n\t\t\t<title>null</title>\n\t\t\t<desc>null</desc>\n\t\t\t<iconUrl>null</iconUrl>\n\t\t\t<secondUrl>null</secondUrl>\n\t\t\t<pageType>0</pageType>\n\t\t\t<setKey>null</setKey>\n\t\t</emotionpageshared>\n\t\t<webviewshared>\n\t\t\t<shareUrlOriginal />\n\t\t\t<shareUrlOpen />\n\t\t\t<jsAppId />\n\t\t\t<publisherId />\n\t\t\t<publisherReqId />\n\t\t</webviewshared>\n\t\t<template_id />\n\t\t<md5>7275319b39f01d4ebcf6c7e74a0bc234</md5>\n\t\t<websearch>\n\t\t\t<rec_category>0</rec_category>\n\t\t\t<channelId>0</channelId>\n\t\t</websearch>\n\t\t<weappinfo>\n\t\t\t<username />\n\t\t\t<appid />\n\t\t\t<appservicetype>0</appservicetype>\n\t\t\t<secflagforsinglepagemode>0</secflagforsinglepagemode>\n\t\t\t<videopageinfo>\n\t\t\t\t<thumbwidth>-1</thumbwidth>\n\t\t\t\t<thumbheight>-1</thumbheight>\n\t\t\t\t<fromopensdk>0</fromopensdk>\n\t\t\t</videopageinfo>\n\t\t</weappinfo>\n\t\t<statextstr>GhQKEnd4NDMxMGJiZDUxYmU3ZDk3OQ==</statextstr>\n\t\t<musicShareItem>\n\t\t\t<musicDuration>0</musicDuration>\n\t\t</musicShareItem>\n\t\t<finderLiveProductShare>\n\t\t\t<finderLiveID><![CDATA[]]></finderLiveID>\n\t\t\t<finderUsername><![CDATA[]]></finderUsername>\n\t\t\t<finderObjectID><![CDATA[]]></finderObjectID>\n\t\t\t<finderNonceID><![CDATA[]]></finderNonceID>\n\t\t\t<liveStatus><![CDATA[]]></liveStatus>\n\t\t\t<appId><![CDATA[]]></appId>\n\t\t\t<pagePath><![CDATA[]]></pagePath>\n\t\t\t<productId><![CDATA[]]></productId>\n\t\t\t<coverUrl><![CDATA[]]></coverUrl>\n\t\t\t<productTitle><![CDATA[]]></productTitle>\n\t\t\t<marketPrice><![CDATA[0]]></marketPrice>\n\t\t\t<sellingPrice><![CDATA[0]]></sellingPrice>\n\t\t\t<platformHeadImg><![CDATA[]]></platformHeadImg>\n\t\t\t<platformName><![CDATA[]]></platformName>\n\t\t\t<shopWindowId><![CDATA[]]></shopWindowId>\n\t\t\t<flashSalePrice><![CDATA[0]]></flashSalePrice>\n\t\t\t<flashSaleEndTime><![CDATA[0]]></flashSaleEndTime>\n\t\t\t<ecSource><![CDATA[]]></ecSource>\n\t\t\t<sellingPriceWording><![CDATA[]]></sellingPriceWording>\n\t\t\t<platformIconURL><![CDATA[]]></platformIconURL>\n\t\t\t<firstProductTagURL><![CDATA[]]></firstProductTagURL>\n\t\t\t<firstProductTagAspectRatioString><![CDATA[0.0]]></firstProductTagAspectRatioString>\n\t\t\t<secondProductTagURL><![CDATA[]]></secondProductTagURL>\n\t\t\t<secondProductTagAspectRatioString><![CDATA[0.0]]></secondProductTagAspectRatioString>\n\t\t\t<firstGuaranteeWording><![CDATA[]]></firstGuaranteeWording>\n\t\t\t<secondGuaranteeWording><![CDATA[]]></secondGuaranteeWording>\n\t\t\t<thirdGuaranteeWording><![CDATA[]]></thirdGuaranteeWording>\n\t\t\t<isPriceBeginShow>false</isPriceBeginShow>\n\t\t</finderLiveProductShare>\n\t\t<finderOrder>\n\t\t\t<appID><![CDATA[]]></appID>\n\t\t\t<orderID><![CDATA[]]></orderID>\n\t\t\t<path><![CDATA[]]></path>\n\t\t\t<priceWording><![CDATA[]]></priceWording>\n\t\t\t<stateWording><![CDATA[]]></stateWording>\n\t\t\t<productImageURL><![CDATA[]]></productImageURL>\n\t\t\t<products><![CDATA[]]></products>\n\t\t\t<productsCount><![CDATA[0]]></productsCount>\n\t\t</finderOrder>\n\t\t<finderShopWindowShare>\n\t\t\t<finderUsername><![CDATA[]]></finderUsername>\n\t\t\t<avatar><![CDATA[]]></avatar>\n\t\t\t<nickname><![CDATA[]]></nickname>\n\t\t\t<commodityInStockCount><![CDATA[]]></commodityInStockCount>\n\t\t\t<appId><![CDATA[]]></appId>\n\t\t\t<path><![CDATA[]]></path>\n\t\t\t<appUsername><![CDATA[]]></appUsername>\n\t\t\t<query><![CDATA[]]></query>\n\t\t\t<liteAppId><![CDATA[]]></liteAppId>\n\t\t\t<liteAppPath><![CDATA[]]></liteAppPath>\n\t\t\t<liteAppQuery><![CDATA[]]></liteAppQuery>\n\t\t\t<platformTagURL><![CDATA[]]></platformTagURL>\n\t\t\t<saleWording><![CDATA[]]></saleWording>\n\t\t\t<reputationInfo>\n\t\t\t\t<hasReputationInfo>0</hasReputationInfo>\n\t\t\t\t<reputationScore>0</reputationScore>\n\t\t\t\t<reputationWording />\n\t\t\t\t<reputationTextColor />\n\t\t\t\t<reputationLevelWording />\n\t\t\t\t<reputationBackgroundColor />\n\t\t\t</reputationInfo>\n\t\t\t<productImageURLList />\n\t\t</finderShopWindowShare>\n\t\t<findernamecard>\n\t\t\t<username />\n\t\t\t<avatar><![CDATA[]]></avatar>\n\t\t\t<nickname />\n\t\t\t<auth_job />\n\t\t\t<auth_icon>0</auth_icon>\n\t\t\t<auth_icon_url />\n\t\t\t<ecSource><![CDATA[]]></ecSource>\n\t\t</findernamecard>\n\t\t<finderGuarantee>\n\t\t\t<scene><![CDATA[0]]></scene>\n\t\t</finderGuarantee>\n\t\t<directshare>0</directshare>\n\t\t<gamecenter>\n\t\t\t<namecard>\n\t\t\t\t<iconUrl />\n\t\t\t\t<name />\n\t\t\t\t<desc />\n\t\t\t\t<tail />\n\t\t\t\t<jumpUrl />\n\t\t\t</namecard>\n\t\t</gamecenter>\n\t\t<patMsg>\n\t\t\t<chatUser />\n\t\t\t<records>\n\t\t\t\t<recordNum>0</recordNum>\n\t\t\t</records>\n\t\t</patMsg>\n\t\t<secretmsg>\n\t\t\t<issecretmsg>0</issecretmsg>\n\t\t</secretmsg>\n\t\t<referfromscene>0</referfromscene>\n\t\t<gameshare>\n\t\t\t<liteappext>\n\t\t\t\t<liteappbizdata />\n\t\t\t\t<liteapppriority>0</liteapppriority>\n\t\t\t</liteappext>\n\t\t\t<gameshareid />\n\t\t\t<sharedata />\n\t\t\t<isvideo>0</isvideo>\n\t\t\t<duration>-1</duration>\n\t\t\t<isexposed>0</isexposed>\n\t\t\t<readtext />\n\t\t</gameshare>\n\t</appmsg>\n\t<fromusername></fromusername>\n\t<scene>0</scene>\n\t<appinfo>\n\t\t<version>24</version>\n\t\t<appname>weixinfile</appname>\n\t</appinfo>\n\t<commenturl />\n</msg>\n',
+  'Status': 3,
+  'ImgStatus': 1,
+  'CreateTime': 1714217975,
+  'VoiceLength': 0,
+  'PlayLength': 0,
+  'FileName': 'WPS JS宏编程教程教案.docx',
+  'FileSize': '14397987',
+  'MediaId': '@crypt_fb5508c_67d653dc64da53826594e229142797271b6749eb37ad52419a00c7a7cf4718e2ecd61a6a7cb14fc54472ebaf981629edddd34584474ccf13bd840a3be7e191df4772e5726f1c616aa82c9b19ed0577f869123b44071044bbdf6a964240aadfd7f0bc444b5b1356bad7749e1193e194ddf590abe1f461487a753f9f9f61319f0a461e0eb887f70cbb5d4b28bd08357e0696cb6e23b52e5a0f67bc4f644529f160ca8ff82f91e452bcf76673030471352490c02feb161b938ea74152623333e12a222304184c7f6e92fd387422059e15f636f78bf5d2802119d15db45c1b871370',
+  'Url': '',
+  'AppMsgType': 6,
+  'StatusNotifyCode': 0,
+  'StatusNotifyUserName': '',
+  'RecommendInfo': {
+    'UserName': '',
+    'NickName': '',
+    'QQNum': 0,
+    'Province': '',
+    'City': '',
+    'Content': '',
+    'Signature': '',
+    'Alias': '',
+    'Scene': 0,
+    'VerifyFlag': 0,
+    'AttrStatus': 0,
+    'Sex': 0,
+    'Ticket': '',
+    'OpCode': 0
+  },
+  'ForwardFlag': 0,
+  'AppInfo': {
+    'AppID': 'wx4310bbd51be7d979',
+    'Type': 0
+  },
+  'HasProductId': 0,
+  'Ticket': '',
+  'ImgHeight': 0,
+  'ImgWidth': 0,
+  'SubMsgType': 0,
+  'NewMsgId': 4533706558817265401,
+  'OriContent': '',
+  'EncryFileName': 'WPS%20JS%E5%AE%8F%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B%E6%95%99%E6%A1%88%2Edocx',
+  'User': <User
+  : {
+  'MemberList': <ContactList
+  : []>, 'Uin': 0, 'UserName': '@72acee7b5535296b20a74ccab7a66298101677a8c842f7a45dc5a5cd2d5946bd',
+'NickName': '孤星泪', 'HeadImgUrl': '/cgi-bin/mmwebwx-bin/webwxgeticon?seq=688541441&username=@72acee7b5535296b20a74ccab7a66298101677a8c842f7a45dc5a5cd2d5946bd&skey=@crypt_d93f4b3a_89626f597c31fe756447bc42a76c541c', 'ContactFlag': 257, 'MemberCount': 0, 'RemarkName': '', 'HideInputBarFlag': 0, 'Sex': 1, 'Signature': '', 'VerifyFlag': 0, 'OwnerUin': 0, 'PYInitial': 'GXL', 'PYQuanPin': 'guxinglei', 'RemarkPYInitial': '', 'RemarkPYQuanPin': '', 'StarFriend': 0, 'AppAccountFlag': 0, 'Statues': 0, 'AttrStatus': 135717, 'Province': '', 'City': '', 'Alias': '', 'SnsFlag': 257, 'UniFriend': 0,
+'DisplayName': '', 'ChatRoomId': 0, 'KeyWord': '', 'EncryChatRoomId': '', 'IsOwner': 0}>,
+'Type': 'Attachment',
+'Text': <function produce_msg.<locals>.download_atta at 0x000000000F551820>
+}

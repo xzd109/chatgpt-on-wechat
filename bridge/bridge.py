@@ -14,7 +14,7 @@ class Bridge(object):
     def __init__(self):
         logger.info("Test Newadd  {} OldValue: {}".format(const.LINKAI,const.CHATGPT)) ##修改了
         self.btype = {
-            "chat": const.LINKAI,#修改了
+            "chat": const.CHATGPT,#修改了  对应的MODELgpt-3.5-turbo
             "voice_to_text": conf().get("voice_to_text", "openai"),
             "text_to_voice": conf().get("text_to_voice", "google"),
             "translate": conf().get("translate", "baidu"),

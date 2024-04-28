@@ -29,6 +29,7 @@ from lib.itchat.content import *
 @itchat.msg_register([TEXT, VOICE, PICTURE, NOTE, ATTACHMENT, SHARING])
 def handler_single_msg(msg):
     try:
+        logger.info("selt-wechat_channel.py handler_single_msg")
         cmsg = WechatMessage(msg, False)
     except NotImplementedError as e:
         logger.debug("[WX]single message {} skipped: {}".format(msg["MsgId"], e))
@@ -49,7 +50,9 @@ def handler_group_msg(msg):
 
 
 def _check(func):
+    #logger.info("selt-wechat_channel.py _check")
     def wrapper(self, cmsg: ChatMessage):
+        #logger.info("selt-wechat_channel.py _check.wrapper==",cmsg)
         msgId = cmsg.msg_id
         if msgId in self.receivedMsgs:
             logger.info("Wechat message {} already received, ignore".format(msgId))
@@ -166,6 +169,7 @@ class WechatChannel(ChatChannel):
     @_check
     def handle_single(self, cmsg: ChatMessage):
         # filter system message
+        logger.info("selt-wechat_channel.py handle_single")
         if cmsg.other_user_id in ["weixin"]:
             return
         if cmsg.ctype == ContextType.VOICE:
@@ -181,6 +185,7 @@ class WechatChannel(ChatChannel):
         else:
             logger.debug("[WX]receive msg: {}, cmsg={}".format(cmsg.content, cmsg))
         context = self._compose_context(cmsg.ctype, cmsg.content, isgroup=False, msg=cmsg)
+        #logger.info(cmsg.ctype, cmsg.content)
         if context:
             self.produce(context)
 
@@ -203,6 +208,7 @@ class WechatChannel(ChatChannel):
         else:
             logger.debug("[WX]receive group msg: {}".format(cmsg.content))
         context = self._compose_context(cmsg.ctype, cmsg.content, isgroup=True, msg=cmsg)
+
         if context:
             self.produce(context)
 

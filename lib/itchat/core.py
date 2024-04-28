@@ -438,6 +438,8 @@ class Core(object):
         ''' a decorator constructor
             return a specific decorator based on information given
         '''
+        from common.log import  logger
+        logger.info("selt-Core.py msg_register")
         raise NotImplementedError()
     def run(self, debug=True, blockThread=True):
         ''' start auto respond

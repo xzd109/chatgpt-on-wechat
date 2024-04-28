@@ -14,6 +14,11 @@ class WechatMessage(ChatMessage):
         self.create_time = itchat_msg["CreateTime"]
         self.is_group = is_group
 
+        # #MSG_MESSAGE = {'Text': '文本', 'Map': '位置分享', 'Sharing': '分享链接',
+        #                'Picture': '图片', 'Video': '视频', 'Card': '名片',
+        #                'Attachment': '附件', 'Recording': '语音'}
+
+
         if itchat_msg["Type"] == TEXT:
             self.ctype = ContextType.TEXT
             self.content = itchat_msg["Text"]

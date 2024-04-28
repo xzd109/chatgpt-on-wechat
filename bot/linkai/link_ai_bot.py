@@ -56,7 +56,6 @@ class LinkAIBot(Bot):
             # exit from retry 2 times
             logger.warn("[LINKAI] failed after maximum number of retry times")
             return Reply(ReplyType.TEXT, "请再问我一次吧")
-
         try:
             # load config
             if context.get("generate_breaked_by"):
@@ -180,10 +179,16 @@ class LinkAIBot(Bot):
         try:
             enable_image_input = False
             app_info = self._fetch_app_info(app_code)
+
+            #{'success': True, 'code': 200, 'message': 'success', 'data': {'app_code': 'HYhYAOBb', 'plugins': [{'name': '网页速读', 'input_type': ['TEXT']}, {'name': 'Dall-E画图', 'input_type': ['TEXT']}, {'name': '时间', 'input_type': ['TEXT']}, {'name': '计算器', 'input_type': ['TEXT']}]}}
+
             if not app_info:
                 logger.debug(f"[LinkAI] not found app, can't process images, app_code={app_code}")
                 return None
             plugins = app_info.get("data").get("plugins")
+
+#{'success': True, 'code': 200, 'message': 'success', 'data': {'app_code': 'HYhYAOBb', 'plugins': [{'name': '网页速读', 'input_type': ['TEXT']}, {'name': 'Dall-E画图', 'input_type': ['TEXT']}, {'name': '时间', 'input_type': ['TEXT']}, {'name': '图像识别', 'input_type': ['IMAGE']}, {'name': '计算器', 'input_type': ['TEXT']}]}}
+
             for plugin in plugins:
                 if plugin.get("input_type") and "IMAGE" in plugin.get("input_type"):
                     enable_image_input = True
@@ -354,6 +359,7 @@ class LinkAIBot(Bot):
                         return search_miss_text
         except Exception as e:
             logger.exception(e)
+
 
 
     def _fetch_agent_suffix(self, response):

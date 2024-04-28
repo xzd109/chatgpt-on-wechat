@@ -1,0 +1,48 @@
+https://docs.link-ai.tech/api#/operations/chat
+
+https://api.link-ai.chat/v1/chat/completions
+{
+  "app_code": "default",
+  "messages": [
+    {
+      "role": "user",
+      "content": "帮我查询下北京明天的天气，如果不知道，请回答不知道"
+    }
+  ],
+  "model": "gpt-3.5-turbo"
+}
+
+
+
+
+    {
+        "choices": [
+            {
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "北京明天的天气预报如下：\n- 天气情况：小雨\n- 最高温度：23℃\n- 最低温度：14℃\n- 风力风向：3-4级转<3级\n- 日出时间：暂无数据\n- 日落时间：暂无数据"
+                },
+                "logprobs": null,
+                "finish_reason": "stop"
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 2215,
+            "completion_tokens": 86,
+            "total_tokens": 2301
+        },
+        "trace_id": "06e1f1ea-073c-49b8-ab91-a54bb125fc04",
+        "agent": {
+            "status": "SUCCESS",
+            "chain": [
+                {
+                    "plugin_name": "必应",
+                    "plugin_icon": "🔎",
+                    "plugin_input": "北京明天天气预报"
+                }
+            ],
+            "need_show_plugin": true,
+            "need_show_thought": false
+        }
+    }

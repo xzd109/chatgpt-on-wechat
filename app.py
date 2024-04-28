@@ -41,6 +41,9 @@ def start_channel(channel_name: str):
 
 
 def run():
+    #print(os.path.dirname(os.path.abspath(__file__)))
+    #exit()
+
     try:
         # load config
         load_config()
@@ -65,7 +68,19 @@ def run():
     except Exception as e:
         logger.error("App startup failed!")
         logger.exception(e)
-
+def _fetch_app_info(app_code: str="HYhYAOBb"):
+    import requests
+    load_config()
+    headers = {"Authorization": "Bearer " + conf().get("linkai_api_key")}
+    # do http request
+    base_url = conf().get("linkai_api_base", "https://api.link-ai.chat")
+    params = {"app_code": app_code}
+    res = requests.get(url=base_url + "/v1/app/info", params=params, headers=headers, timeout=(5, 10))
+    if res.status_code == 200:
+        print(res.json())
+    else:
+        logger.info(f"[LinkAI] find app info exception, res={res}")
 
 if __name__ == "__main__":
+    #_fetch_app_info()
     run()
